@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Singup</title>
+    <link rel="stylesheet" href="../../src/css/style.css" />
+  </head>
+  <body>
+    <header class="mt-20 mb-12 flex justify-center">
+      <img src="../../src/img/LogoLoginsvg.svg" alt="" />
+    </header>
+    <main class="w-[730px] mx-auto">
+      <div class="border border-t-primary shadow-xl">
+        <div class="ml-9">
+          <div>
+            <p class="mt-9">
+              <span class="text-primary"><a href="../../index.html">Home</a></span> / Sign-up
+            </p>
+          </div>
+          <div class="mt-6">
+            <p class="font-bold">Sing Up</p>
+            <p class="mt-4 font-extralight">Register yourself to do something on Lidia.</p>
+          </div>
+          <form>
+            <div class="mr-9">
+              <div class="flex justify-between gap-8 mt-10">
+                <div class="w-1/2">
+                  <p class="font-bold">Full Name</p>
+                  <label for="fullname"></label>
+                  <input title="fullname" type="text" class="w-full border border-primary mt-2 pl-3 py-2" placeholder="Muhammad Alfian" />
+                  <p class="font-bold mt-6">Username</p>
+                  <label for="username"></label>
+                  <input title="username" type="text" class="w-full border border-primary mt-2 pl-3 py-2" placeholder="e.g. alfianchii" />
+                  <p class="font-bold mt-6">Phone</p>
+                  <label for="phone"></label>
+                  <input title="phone" type="number" class="w-full border border-primary mt-2 pl-3 py-2" placeholder="e.g. 082384763478" />
+                  <p class="font-bold mt-6">Address</p>
+                  <label for="address"></label>
+                  <input title="address" type="text" class="w-full border border-primary mt-2 pl-3 py-2" placeholder="e.g. JL. Free Fire Factory, No. 1, Kla Only" />
+                  <p class="font-bold mt-6">Password</p>
+                  <label for="password"></label>
+                  <input title="password" type="password" class="w-full border border-primary mt-2 pl-3 py-2" placeholder="e.g. 4kuBu7uhM3dk1t" />
+                </div>
+                <div class="w-1/2">
+                  <p class="font-bold">NIK</p>
+                  <label for="nik"></label>
+                  <input title="nik" type="number" class="w-full border border-primary mt-2 pl-3 py-2" placeholder="e.g. 1050241708900001" />
+                  <p class="font-bold mt-6">Email</p>
+                  <label for="email"></label>
+                  <input title="email" type="email" class="w-full border border-primary mt-2 pl-3 py-2" placeholder="e.g. alfian.ganteng@gmail.com" />
+                  <p class="font-bold mt-6">Born</p>
+                  <label for="born"></label>
+                  <input title="born" type="date" class="w-full border border-primary mt-2 pl-3 py-2" />
+                  <p class="font-bold mt-6 mb-4">Gender</p>
+                  <div class="flex gap-9">
+                    <div>
+                      <input type="radio" id="Laki-laki" name="Gender" value="laki-laki" />
+                      <label for="Laki-laki">Laki-laki</label><br />
+                    </div>
+                    <div>
+                      <input type="radio" id="perempuan" name="Gender" value="perempuan" />
+                      <label for="perempuan">perempuan</label><br />
+                    </div>
+                  </div>
+                  <p class="font-bold mt-8">Confirm Password</p>
+                  <label for="password"></label>
+                  <input title="password" type="password" class="w-full border border-primary mt-2 pl-3 py-2" placeholder="e.g. 4kuBu7uhM3dk1t" />
+                </div>
+              </div>
+              <button class="bg-primary w-full mt-7 py-2 text-white mb-5">Sign-up</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="mt-12 text-center">
+      <p class="mt-10">© 2024 Lidia. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
